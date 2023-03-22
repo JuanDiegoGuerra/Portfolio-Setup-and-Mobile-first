@@ -1,9 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="img/archesportslogo.jpg" alt="logo" width="50"  height="auto" />
+  <img src="img/profilepic.jpg" alt="logo" width="50"  height="auto" />
   <br/>
-  <h3><b>Hello Microverse README</b></h3>
+  <h3><b>Setup Portfolio and Mobile First README</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello-Microverse-Project] <a name="about-project"></a>
+# 📖 [Setup-Portfolio-and-Mobile-First] <a name="about-project"></a>
 
-**[Hello-Microverse-Project]** 
+**[Setup-Portfolio-and-Mobile-First]** 
 
 ## 🛠 Built With <a name="built-with"></a>
 
