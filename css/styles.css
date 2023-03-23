@@ -167,7 +167,6 @@ footer h3:hover {
           url("../img/square.png"),      
           url("../img/revertsquare.png"),
           url("../img/elipsir.png"),
-          url("../img/square2.png"),
           url("../img/artrock.png");
         background-repeat: no-repeat;
         background-position:
@@ -175,7 +174,6 @@ footer h3:hover {
           -15% 84%,
           135% 85%,
           122% 25%,
-          80% 4%,
           -15% 10%;    
       }
       .primary-logo{
