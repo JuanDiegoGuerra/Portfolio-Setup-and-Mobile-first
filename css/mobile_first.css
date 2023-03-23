@@ -1,0 +1,147 @@
+:root {
+  --blanco: #f9f9f9;
+  --negro: #36383f;
+  --gris: #172c4f;
+  --verde: #36b37e;
+} /* variables in spanish (for fun) */
+
+body {
+  background-color: var(--blanco);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+/* ----- Elements ----- */
+
+.flex-nav-list {
+  display: none;
+}
+
+.menu {
+  display: block;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.index-page {
+  background-image:
+    url("../img/header-illsutration-mobile.png"),
+    url("../img/Action.png");
+  background-repeat: no-repeat;
+  background-size: 50vh;
+  background-position:
+    60% 15%,
+    50% 65%;
+}
+
+.primary-logo {
+  display: none;
+}
+
+.flex-navbar {
+  background-color: var(--blanco);
+  color: var(--blanco);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+
+.flex-nav-list .list-item {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.flex-navbar a {
+  color: var(--negro);
+  text-decoration: none;
+}
+
+.flex-navbar a:hover {
+  color: var(--verde);
+}
+
+.menu-line {
+  width: 20px;
+  height: 2px;
+  background-color: var(--negro);
+  border-radius: 2px;
+  margin-bottom: 15%;
+  margin-right: 5px;
+}
+
+#headline-section {
+  height: 100vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 150px;
+  background-image: none;
+}
+
+.headline-title {
+  font-weight: bold;
+  font-size: 33px;
+  color: var(--gris);
+  text-align: center;
+  margin: 0 24px;
+}
+
+.headline-sub-title {
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--verde);
+  text-align: center;
+  margin: 0 24px;
+}
+
+#headline-section p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--gris);
+  margin: 12px 24px 0 24px;
+  text-align: center;
+}
+
+#contact ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-left: 24px;
+}
+
+.icon {
+  list-style-type: none;
+  margin-top: 5%;
+}
+
+h3 {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--gris);
+  line-height: 44px;
+}
+
+footer h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--negro);
+  margin-left: 24px;
+}
+
+footer h3:hover {
+  text-decoration: none;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--verde);
+}
+
+#headline-section footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
