@@ -21,7 +21,7 @@ body {
   display: block;
   position: absolute;
   right: 25px;
-  top: 25px;
+  top: 15px;
 }
 
 .index-page {
@@ -29,10 +29,10 @@ body {
     url("../img/header-illsutration-mobile.png"),
     url("../img/Action.png");
   background-repeat: no-repeat;
-  background-size: 50vh;
+  background-size: 58vh;
   background-position:
     60% 15%,
-    50% 65%;
+    50% 73%;
 }
 
 .primary-logo {
