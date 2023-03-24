@@ -71,9 +71,9 @@
 
 > Key features of the application.
 
-- **[Learn_how_to_1]**
-- **[Learn_how_to_2]**
-- **[Learn_how_to_3]**
+- **[Learn_how_to_built_your_personal_portfolio_Site]**
+- **[Learn_how_to_use_flexbox_to_place_elements]**
+- **[Learn_how_to_use_images_and_backgrounds]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -82,9 +82,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> No demo implemented for this project.
+> No demo implemented for this project yet.
 
-- This project is mean to be an example of how to set up your portfolio and mobile first using html & css with git and github best practices.
+- This project is mean to be an example of how to set up your portfolio and mobile first using html & css + Figma + git and github best practices.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +113,7 @@ Clone this repository to your desired folder:
 
 1️⃣ Open Git Bash.
 2️⃣ Change the current working directory to the location where you want the cloned directory.
-3️⃣ Type: ``
+3️⃣ Type: `git clone https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first.git`
 4️⃣ Press Enter to create your local clone.
 
 ### Install
