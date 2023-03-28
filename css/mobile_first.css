@@ -501,7 +501,8 @@ h3 {
 }
 
 .contact input {
-  font-family: Poppins, sans-serif;
+  
+  font-style: italic;
   font-size: 17px;
   line-height: 20px;
   display: flex;
@@ -514,24 +515,21 @@ h3 {
 .contact textarea {
   font-size: 15px;
   line-height: 24px;
-  color: #000;
+  color: #42526E;
   padding: 15px;
   border-radius: 12px;
-  border: none;
   border: 0.5px solid #60c095;
 }
 
 #contact-button {
-  width: 153px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px;
   background-color: #36b37f;
   border-radius: 6px;
   color: white;
   border: 2px white solid;
-  font-size: 18px;
-  margin-left: 27%;
-  margin-top: 2%;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
 }
 
 .bg_final {
