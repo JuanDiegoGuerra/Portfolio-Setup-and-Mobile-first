@@ -502,7 +502,6 @@ h3 {
 }
 
 .contact input {
-  
   font-style: italic;
   font-size: 17px;
   line-height: 20px;
@@ -516,7 +515,7 @@ h3 {
 .contact textarea {
   font-size: 15px;
   line-height: 24px;
-  color: #42526E;
+  color: #42526e;
   padding: 15px;
   border-radius: 12px;
   border: 0.5px solid #60c095;
