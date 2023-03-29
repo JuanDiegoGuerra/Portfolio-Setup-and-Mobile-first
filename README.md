@@ -189,8 +189,10 @@ VS Code and Google Chrome.
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+> Big thanks to my coding partners 👨🏽‍🚀
 
-Contributions, issues, and feature requests are welcome!
+- GitHub: [@enmanuelbayen](https://github.com/enmanuelbayen)
+- GitHub: [@Alejuda](https://github.com/Alejuda)
 
 Feel free to check the [issues page](../../issues/).
 
