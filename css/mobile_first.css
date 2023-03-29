@@ -533,8 +533,14 @@ h3 {
 }
 
 #contact-button:hover {
-  background: #033700;
+  background: #36B37F;
   border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+#contact-button:active {
+  background-color: #008552;
+  border-radius: 10px;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
@@ -570,7 +576,13 @@ h3 {
 }
 
 .external_link:hover {
-  background: #033700;
+  background: #008552;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.external_link:active {
+  background: #36B37F;
   border-radius: 5px;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
