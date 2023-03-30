@@ -60,12 +60,13 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .flex-nav-list .list-item {
   display: inline-block;
-  padding: 20px 10px;
+  padding: 0 10px;
+  margin-top: 5px;
 }
 
 .flex-navbar a {
@@ -519,6 +520,7 @@ h3 {
   padding: 15px;
   border-radius: 12px;
   border: 0.5px solid #60c095;
+  resize: vertical;
 }
 
 #contact-button {
@@ -625,6 +627,10 @@ footer h3:hover {
     width: 100%;
   }
 
+  .menu-line {
+    display: none;
+  }
+
   .flex-nav-list {
     position: absolute;
     width: auto;
@@ -642,7 +648,7 @@ footer h3:hover {
     gap: 10px;
     font-weight: 600;
     color: #344563;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .menu {
@@ -666,7 +672,7 @@ footer h3:hover {
       url("../img/lines_group.png");
     background-repeat: no-repeat;
     background-size:
-      35%,
+      25%,
       20%,
       20%,
       22%,
@@ -676,7 +682,7 @@ footer h3:hover {
       20%,
       100%;
     background-position:
-      50% 65%,
+      50% 50%,
       0% 40%,
       104% 35%,
       75% 85%,
@@ -709,6 +715,7 @@ footer h3:hover {
   #social-icons {
     width: 80%;
     margin-left: 10%;
+    margin-top: 10%;
   }
 
   #my-recent-works {
@@ -717,9 +724,9 @@ footer h3:hover {
   }
 
   .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
   }
 
   .menu-line-recent-works {
@@ -736,7 +743,7 @@ footer h3:hover {
       url(../img/illustration-\ about\ me-\ desktop-1.png),
       url(../img/illustration-\ about\ me-\ desktop-2.png);
     background-repeat: no-repeat;
-    background-size: 20%, 20%;
+    background-size: 12%, 10%;
     background-position:
       0% 60%,
       100% -20%;
@@ -757,22 +764,24 @@ footer h3:hover {
   }
 
   .lang-frame-skill {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
   }
 
   #about-me-section-3 {
-    margin-left: 30%;
+    /* margin-left: 30%; */
   }
 
   .bg_final {
     width: 100%;
+    height: 30vh;
     background-image:
       url(../img/bg_final_desktop1.png),
       url(../img/bg_final_desktop2.png),
       url(../img/bg_final_desktop3.png);
     background-repeat: no-repeat;
-    background-size: 15%, 10%, 10%;
+    background-size: 10%, 10%, 7%;
     background-position: 0% 100%, 25% 80%, 100% 50%;
   }
 
@@ -792,35 +801,28 @@ footer h3:hover {
   }
 
   #footer-social {
-    width: 17%;
+    width: 15%;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
   }
 
   #about-me-section-4 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
     margin: 0 auto;
+    width: 100%;
   }
 
   .am-contact-me-main-grid {
-    flex-grow: 4;
-    width: 35%;
-    margin-top: 5%;
-    margin-left: 2%;
-    justify-content: center;
-    margin-right: 2%;
-  }
+    margin-left: -100%;
 
-  /* .inputs-form {
-    flex-grow: 2;
-    width: 65%;
-    margin-right: 5%;
-  } */
+    /* margin-right: -25%; */
+  }
 
   #about-me-section-4 h2 {
     font-size: 17px;
+    margin-bottom: 15%;
   }
 
   #about-me-section-4 button {
@@ -840,14 +842,29 @@ footer h3:hover {
   }
 
   .first-last-name {
-    display: flex;
-    flex-direction: row;
+    display: grid;
     gap: 10px;
+    grid-template-columns: auto auto;
   }
 
+  .input-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+
+
   .inputs-form2 {
-    display: flex;
-    width: 65%;
-    margin-right: 5%;
+    display: grid;
+    padding: 0;
+    width: 140%;
+    margin-left: -10%;
+  }
+
+  .contact-title {
+    line-height: 52px;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 15vw;
   }
 }
