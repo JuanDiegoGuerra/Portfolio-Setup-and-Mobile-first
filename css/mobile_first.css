@@ -769,10 +769,6 @@ footer h3:hover {
     justify-content: center;
   }
 
-  #about-me-section-3 {
-    /* margin-left: 30%; */
-  }
-
   .bg_final {
     width: 100%;
     height: 30vh;
@@ -816,8 +812,6 @@ footer h3:hover {
 
   .am-contact-me-main-grid {
     margin-left: -100%;
-
-    /* margin-right: -25%; */
   }
 
   #about-me-section-4 h2 {
@@ -852,7 +846,6 @@ footer h3:hover {
     grid-template-columns: auto auto;
     align-items: center;
   }
-
 
   .inputs-form2 {
     display: grid;
