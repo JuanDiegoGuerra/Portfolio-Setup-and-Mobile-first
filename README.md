@@ -3,7 +3,7 @@
 <div align="center">
   <img src="img/profilepic.jpg" alt="logo" width="50"  height="auto" />
   <br/>
-  <h3><b>Setup Portfolio and Mobile First README</b></h3>
+  <h3><b>Setup Portfolio and Mobile First README!</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
