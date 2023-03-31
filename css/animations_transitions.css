@@ -1,0 +1,119 @@
+/* ---------------------------- TRANSITIONS ---------------------------- */
+
+/* ----- PROJECT BOXES ----- */
+.project-1 {
+  transition: width 0.5s, transform 0.5s;
+}
+
+.project-1:hover {
+  width: 324px;
+}
+
+.project-2 {
+  transition: width 0.5s, transform 0.5s;
+}
+
+.project-2:hover {
+  width: 324px;
+}
+
+/* ----- BUTTONS ----- */
+
+/* See Project */
+.external_link {
+  transition: background-color 1s, transform 1s;
+}
+
+/* Get my Resume */
+#ex-li-3 {
+  transition: background-color 1s, transform 1s;
+}
+
+#ex-li-3:hover {
+  background: #008552;
+}
+
+/* Get in touch */
+#contact-button {
+  transition: background-color 1s, transform 1s;
+}
+
+#contact-button:hover {
+  background: #008552;
+}
+
+/* ----- TOP MENU (Portfolio/About/Contact) ----- */
+
+.list-item {
+  transition: transform 0.5s;
+}
+
+.list-item:hover {
+  transform: scale(1.4);
+  margin: 0;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+/* ----- About Me Grids (Languages/Frameworks/Skills) ----- */
+
+#about-me-section-2:hover,
+#about-me-section-3:hover {
+  width: 324px;
+  background-color: #ebf0ee;
+}
+
+/* ---------------------------- ANIMATIONS ---------------------------- */
+
+/* ----- Index Page Headline title ----- */
+
+.headline-title2 {
+  animation-duration: 3s;
+  animation-name: h2title2;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+@keyframes h2title2 {
+  from {
+    margin-left: -10%;
+  }
+
+  to {
+    margin-left: 20%;
+  }
+}
+
+/* ----- Index Page subtitle ----- */
+
+.headline-sub-title {
+  animation-duration: 3s;
+  animation-name: h2subtitle;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+
+@keyframes h2subtitle {
+  from {
+    margin-left: 20%;
+  }
+
+  to {
+    margin-left: -10%;
+  }
+}
+
+/* ----- Get my resume button (SPINNER) ----- */
+
+#ex-li-3:active {
+  animation: 3s infinite linear threesixty;
+}
+
+@keyframes threesixty {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 359deg;
+  }
+}
