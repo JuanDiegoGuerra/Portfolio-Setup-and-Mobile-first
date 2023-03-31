@@ -1,4 +1,65 @@
 /* ---------------------------- TRANSITIONS ---------------------------- */
 
+/* ----- PROJECT BOXES ----- */
+.project-1 {
+    transition: width 0.5s, transform 0.5s;
+  }
+  
+  .project-1:hover {
+    width: 324px;
+  }
+  
+  .project-2 {
+    transition: width 0.5s, transform 0.5s;
+  }
+  
+  .project-2:hover {
+    width: 324px;
+  }
+  
+  /* ----- BUTTONS ----- */
+  
+  /* See Project */
+  .external_link {
+    transition: background-color 1s, transform 1s;
+  }
+  
+  /* Get my Resume */
+  #ex-li-3 {
+    transition: background-color 1s, transform 1s;
+  }
+  
+  #ex-li-3:hover {
+    background: #008552;
+  }
+  
+  /* Get in touch */
+  #contact-button {
+    transition: background-color 1s, transform 1s;
+  }
+  
+  #contact-button:hover {
+    background: #008552;
+  }
+  
+  /* ----- TOP MENU (Portfolio/About/Contact) ----- */
+  
+  .list-item {
+    transition: transform 1s;
+  }
+  
+  .list-item:hover {
+    font-size: 20px;
+    margin: 0;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+  
+  /* ----- About Me Grids (Languages/Frameworks/Skills) ----- */
+  
+  #about-me-section-2:hover,
+  #about-me-section-3:hover {
+    width: 324px;
+    background-color: #ebf0ee;
+  }
 
 /* ---------------------------- ANIMATIONS ---------------------------- */
