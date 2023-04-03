@@ -2,19 +2,19 @@
 
 /* ----- PROJECT BOXES ----- */
 .project-1 {
-  transition: width 0.5s, transform 0.5s;
+  transition: transform 0.5s;
 }
 
 .project-1:hover {
-  width: 324px;
+  transform: scale(1.1);
 }
 
 .project-2 {
-  transition: width 0.5s, transform 0.5s;
+  transition: transform 0.5s;
 }
 
 .project-2:hover {
-  width: 324px;
+  transform: scale(1.1);
 }
 
 /* ----- BUTTONS ----- */
@@ -56,10 +56,25 @@
 
 /* ----- About Me Grids (Languages/Frameworks/Skills) ----- */
 
-#about-me-section-2:hover,
-#about-me-section-3:hover {
-  width: 324px;
-  background-color: #ebf0ee;
+.am-skills-list:hover {
+  color: rgba(8, 209, 213, 0.905);
+  transform: scale(1.3);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: transform 0.5s;
+}
+
+.am-frame-list:hover {
+  color: rgba(8, 209, 213, 0.905);
+  transform: scale(1.3);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: transform 0.5s;
+}
+
+.am-lang-list:hover {
+  color: rgba(8, 209, 213, 0.905);
+  transform: scale(1.3);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: transform 0.5s;
 }
 
 /* ---------------------------- ANIMATIONS ---------------------------- */
