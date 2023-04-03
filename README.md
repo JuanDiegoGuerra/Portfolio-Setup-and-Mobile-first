@@ -82,9 +82,10 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> No demo implemented for this project yet.
+> Live Demo of "My Portfolio" project using Github Pages.
 
-- This project is mean to be an example of how to set up your portfolio and mobile first using html & css + Figma + git and github best practices.
+- Web Project: [JD's Portfolio Demo](https://juandiegoguerra.github.io/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
