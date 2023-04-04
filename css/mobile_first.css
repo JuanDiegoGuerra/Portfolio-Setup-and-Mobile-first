@@ -46,10 +46,10 @@ body {
 
 .external_link a {
   text-decoration: none;
-  font-weight: 50;
+  font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #fff;
+  color: #595959;
   text-align: center;
   resize: none;
 }
@@ -115,7 +115,7 @@ body {
 .headline-sub-title {
   font-weight: bold;
   font-size: 22px;
-  color: var(--verde);
+  color: #595959;
   text-align: center;
   margin: 0 24px;
 }
@@ -265,7 +265,7 @@ h3 {
   text-align: center;
   border-radius: 7px;
   font-size: 12px;
-  color: #36b37e;
+  color: #595959;
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -361,7 +361,7 @@ h3 {
   padding: 2px;
   border-radius: 7px;
   font-size: 12px;
-  color: #36b37e;
+  color: #595959;
   padding-top: 10px;
   padding-bottom: 10px;
   flex: 1;
@@ -419,7 +419,7 @@ h3 {
   padding: 2px;
   border-radius: 7px;
   font-size: 12px;
-  color: #36b37e;
+  color: #595959;
   padding-top: 10px;
   padding-bottom: 10px;
   flex: 1;
@@ -527,7 +527,7 @@ h3 {
   padding: 12px;
   background-color: #36b37f;
   border-radius: 6px;
-  color: white;
+  color: #595959;
   border: 2px white solid;
   font-size: 17px;
   letter-spacing: 0.03em;
