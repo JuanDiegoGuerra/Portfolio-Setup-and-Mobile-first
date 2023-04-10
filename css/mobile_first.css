@@ -618,10 +618,55 @@ footer h3:hover {
   }
 
   .flex-nav-list {
-    display: none;
+    font-size: 19px;
+    display: flex;
+    position: fixed;
+    left: -150%;
+    top: -20px;
+    padding-top: 10px;
+    gap: 0;
+    background-color: #60c095;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+    font-weight: 700;
+  }
+
+  .list-item {
+    margin: 16px 0;
+  }
+
+  .flex-navbar a:hover {
+    color: var(--verde);
+  }
+
+  .nav-link{
+    transition: 0.3s ease-out;
+  }
+
+  .flex-nav-list.active {
+    left: 0;
+  }
+
+  .menu{
+    display: block;
+    position: fixed;
+  }
+
+  .menu.active .menu-line:nth-child(2){
+    opacity: 0;
+  }
+
+  .menu.active .menu-line:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .menu.active .menu-line:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
   }
 }
 
+/* --- DESKTOP SIZE --- */
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
