@@ -630,8 +630,20 @@ footer h3:hover {
 }
 
 /* MyWorksSection */
+.work-tool {
+  background-color: #98dede;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.7rem;
+  line-height: 80%;
+  margin: 5px;
+}
 
-
+.work-name {
+  margin: 40% 0 2% 0%;
+}
 
 /* Pop up  */
 
