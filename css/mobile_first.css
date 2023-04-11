@@ -8,6 +8,10 @@
   --amarillo: #fffb00;
 } /* variables in spanish (for fun) */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--blanco);
   font-family: 'Inter', sans-serif;
