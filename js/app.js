@@ -126,5 +126,9 @@ PopupWindow.forEach((p, index) => {
           <i class="fa fa-github" aria-hidden="true"></i></a> </button>
         </div>
       </div>`;
+      const closePop = document.querySelector('.close-pop');
+    closePop.addEventListener('click', () => {
+      popUp.classList.remove('display-visible');
+      document.body.classList.remove('no-scroll');
 
-    }); });
+    }); }); });
