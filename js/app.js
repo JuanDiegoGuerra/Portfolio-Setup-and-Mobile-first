@@ -97,6 +97,34 @@ const popUp = document.querySelector('.popup');
 
 PopupWindow.forEach((p, index) => {
   p.addEventListener('click', () => {
+    document.body.classList.add('no-scroll');
+    popUp.classList.add('display-visible');
+    popUp.innerHTML = `
+  <div class="popup-container display-flex-column">
+        <div class="close-pop"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <div class="slider">
+            <div class="pop-img-container">
+            <img id="project-img" class="project-img" src="${ProjectCardsDetails[index].ProjectIMG[0]}" alt="">
+            </div>
+        </div>
+        <h2 class="project-name work-name">${ProjectCardsDetails[index].projectName}</h2>
+        <ul class="works-tools">
+          <li class="work-tool">${ProjectCardsDetails[index].languages[0]}</li>
+          <li class="work-tool">${ProjectCardsDetails[index].languages[1]}</li>
+          <li class="work-tool">${ProjectCardsDetails[index].languages[2]}</li>
+          <li class="work-tool">${ProjectCardsDetails[index].languages[3]}</li>
+        </ul>
+        <p class="notes">
+        ${ProjectCardsDetails[index].projectInfo}
+        </p>
+        <div class="pop-btns">
+          <button class="see-project more-info light-btn">
+          <a href="${ProjectCardsDetails[index].SeeLive}">See Live 
+          <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+          <button class="see-project light-btn">
+          <a href="${ProjectCardsDetails[index].SeeSource}">See Source 
+          <i class="fa fa-github" aria-hidden="true"></i></a> </button>
+        </div>
+      </div>`;
 
     }); });
-    
