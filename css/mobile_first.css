@@ -1063,5 +1063,32 @@ footer h3:hover {
 
   /* Pop up desktop size */
 
+  .popup {
+    background-color: #1a2236;
+  }
+
+  .popup-container {
+    height: 90vh;
+    position: relative;
+  }
+
+  .popup-container .project-name {
+    font-size: 3.75rem;
+  }
+
+  .popup-container .work-tool {
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  .popup-container .see-project {
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  .popup-container .notes {
+    width: 60%;
+    margin: 1.5rem 0;
+  }
 
 }
