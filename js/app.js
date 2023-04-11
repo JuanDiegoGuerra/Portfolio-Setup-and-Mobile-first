@@ -76,5 +76,18 @@ const ProjectCardsDetails = [
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
-}        
+  },
+  {
+    id: 'work6',
+    projectName: 'Try Boostrap',
+    projectInfo:
+      "Try Boostrap is a project in where you built your own portfolio website using Boostrap.",
+    ProjectIMG: [
+      'img/project_imgs/try_boostrap.JPG'
+    ],
+    languages: ['HTML5', 'Javascript', 'CSS', 'Github'],
+    seeProject: 'See Project',
+    SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
+    SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
+  }        
 ]   
