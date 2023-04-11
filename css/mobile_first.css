@@ -622,19 +622,19 @@ footer h3:hover {
   }
 
   .flex-nav-list {
-    font-size: 15px;
     display: flex;
+    flex-direction: column;
     position: fixed;
     left: -150%;
-    top: -20px;
+    top: -30px;
     padding-top: 10px;
-    gap: 0;
-    background-color: var(--verde);
-    border: 3px black solid;
+    bottom: 10px;
+    gap: 10px;
+    background-color: #ffffff;
     width: 100%;
-    text-align: center;
-    transition: 0.5s;
-    font-weight: 700;
+    font-weight: 600;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 48px 48px #cdcdcd;
   }
 
   .list-item {
@@ -642,7 +642,7 @@ footer h3:hover {
   }
 
   .flex-navbar a:hover {
-    color: red;
+    color: var(--verde);
   }
 
   .nav-link {
@@ -667,12 +667,11 @@ footer h3:hover {
   }
 
   .menu.active .menu-line:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-5px) rotate(-45deg);
   }
 
-  .menu.active:hover {
-    transition: 1s;
-    background-color: red;
+  #homie{
+    margin-top: 15%;
   }
 
   #my-recent-works {
