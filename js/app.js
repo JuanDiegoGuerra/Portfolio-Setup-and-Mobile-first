@@ -37,5 +37,18 @@ const ProjectCardsDetails = [
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
+  },
+  {
+    id: 'work3',
+    projectName: 'Pokedex',
+    projectInfo:
+      "Pokedex is a personal project that I made watching a video and practicing what I learnd in my Web Developer journey.",
+    ProjectIMG: [
+      'img/project_imgs/pokedex_preview2.gif'
+    ],
+    languages: ['HTML5', 'Javascript', 'CSS', 'Github'],
+    seeProject: 'See Project',
+    SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
+    SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
   }        
 ]   
