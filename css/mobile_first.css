@@ -704,6 +704,19 @@ footer h3:hover {
   width: 100%;
   margin: 1.5rem 0;
 }
+
+.slider {
+  width: 90vw;
+  height: 60vw;
+  position: relative;
+}
+
+.slider .project-img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
 .img-icons {
   display: flex;
 }
@@ -1091,6 +1104,14 @@ footer h3:hover {
     margin: 1.5rem 0;
   }
 
+  .slider {
+    height: auto;
+  }
+
+  .slider,
+  .img-icons { width: 80vw; }
+
+  .slider,
   .img-icons,
   .pop-btns,
   .popup-container .notes {
