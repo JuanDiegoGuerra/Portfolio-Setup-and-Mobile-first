@@ -194,6 +194,8 @@ VS Code and Google Chrome.
 
 - GitHub: [@enmanuelbayen](https://github.com/enmanuelbayen)
 - GitHub: [@Alejuda](https://github.com/Alejuda)
+- GitHub: [@CesarHerr](https://github.com/CesarHerr)
+
 
 Feel free to check the [issues page](../../issues/).
 

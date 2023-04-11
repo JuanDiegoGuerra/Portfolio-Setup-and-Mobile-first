@@ -47,15 +47,16 @@
 }
 
 /* ----- TOP MENU (Portfolio/About/Contact) ----- */
+@media screen and (min-width: 768px) {
+  .list-item {
+    transition: transform 0.5s;
+  }
 
-.list-item {
-  transition: transform 0.5s;
-}
-
-.list-item:hover {
-  transform: scale(1.4);
-  margin: 0;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  .list-item:hover {
+    transform: scale(1.4);
+    margin: 0;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
 }
 
 /* ----- About Me Grids (Languages/Frameworks/Skills) ----- */

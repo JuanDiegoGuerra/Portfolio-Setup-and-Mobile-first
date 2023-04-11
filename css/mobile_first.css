@@ -8,6 +8,10 @@
   --amarillo: #fffb00;
 } /* variables in spanish (for fun) */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--blanco);
   font-family: 'Inter', sans-serif;
@@ -618,10 +622,64 @@ footer h3:hover {
   }
 
   .flex-nav-list {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -150%;
+    top: -30px;
+    padding-top: 10px;
+    bottom: 10px;
+    gap: 10px;
+    background-color: #fff;
+    width: 100%;
+    font-weight: 600;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 48px 48px #cdcdcd;
+  }
+
+  .list-item {
+    margin: 16px 0;
+  }
+
+  .flex-navbar a:hover {
+    color: var(--verde);
+  }
+
+  .nav-link {
+    transition: 0.3s ease-out;
+  }
+
+  .flex-nav-list.active {
+    left: 0;
+  }
+
+  .menu {
+    display: block;
+    position: fixed;
+  }
+
+  .menu.active .menu-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu.active .menu-line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .menu.active .menu-line:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+
+  #homie {
+    margin-top: 15%;
+  }
+
+  #my-recent-works {
+    margin-top: 20%;
   }
 }
 
+/* --- DESKTOP SIZE --- */
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
