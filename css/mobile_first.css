@@ -646,8 +646,64 @@ footer h3:hover {
 }
 
 /* Pop up  */
+.popup {
+  background-color: #fff;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: none;
+}
 
+.popup-container {
+  height: 100vh;
+  background-color: #fff;
+  width: 90vw;
+  margin: auto;
+  padding: 5rem 0 1rem 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
+.popup-container::-webkit-scrollbar { display: none; }
+
+.popup-container .project-name {
+  color: #1a2236;
+  font-weight: 700;
+}
+
+.popup-container .work-tool {
+  background-color: unset;
+  border: 1px solid #1a2236;
+}
+
+.popup-container .see-project {
+  display: flex;
+  justify-content: center;
+  max-width: 20rem;
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+  position: relative;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.popup-container .see-project i {
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
+  font-size: 1.5rem;
+}
+
+.popup-container .notes {
+  width: 100%;
+  margin: 1.5rem 0;
+}
 
 /* ---  MEDIA QUERIES --- */
 
