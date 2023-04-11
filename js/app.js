@@ -24,5 +24,18 @@ const ProjectCardsDetails = [
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Hello-Microverse-Project',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Hello-Microverse-Project',
+  },
+  {
+    id: 'work2',
+    projectName: 'Setup-Mobile-First',
+    projectInfo:
+      "Setup-Mobile-First is a project in where you built your own portfolio website using Frontend Dev Tools.",
+    ProjectIMG: [
+      'img/project_imgs/setup_portfolio.JPG'
+    ],
+    languages: ['HTML5', 'Javascript', 'CSS', 'Github'],
+    seeProject: 'See Project',
+    SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
+    SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
   }        
 ]   
