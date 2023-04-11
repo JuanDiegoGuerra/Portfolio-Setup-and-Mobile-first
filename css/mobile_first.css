@@ -630,11 +630,11 @@ footer h3:hover {
     padding-top: 10px;
     bottom: 10px;
     gap: 10px;
-    background-color: #ffffff;
+    background-color: #fff;
     width: 100%;
     font-weight: 600;
     border-bottom-left-radius: 30px;
-    box-shadow: 0px 48px 48px #cdcdcd;
+    box-shadow: 0 48px 48px #cdcdcd;
   }
 
   .list-item {
@@ -670,7 +670,7 @@ footer h3:hover {
     transform: translateY(-5px) rotate(-45deg);
   }
 
-  #homie{
+  #homie {
     margin-top: 15%;
   }
 
