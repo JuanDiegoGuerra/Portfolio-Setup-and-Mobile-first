@@ -91,3 +91,12 @@ const ProjectCardsDetails = [
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
   }        
 ]   
+// Pop Up section
+const PopupWindow = document.querySelectorAll('.external_link');
+const popUp = document.querySelector('.popup');
+
+PopupWindow.forEach((p, index) => {
+  p.addEventListener('click', () => {
+
+    }); });
+    
