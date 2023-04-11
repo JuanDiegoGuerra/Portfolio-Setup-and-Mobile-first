@@ -538,6 +538,10 @@ h3 {
   margin: 0 auto;
 }
 
+#contact-button a{    
+  text-decoration: none;
+}
+
 #contact-button:hover {
   background: #36b37f;
   border-radius: 5px;
@@ -570,7 +574,7 @@ h3 {
   margin-bottom: 20px;
 }
 
-#ex-li-3 {
+.ex-li-3 {
   width: 153px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -613,6 +617,25 @@ footer h3:hover {
 .inputs-form2 {
   display: none;
 }
+
+/* POPUP WINDOWS */
+.no-scroll {
+  overflow: hidden;
+}
+
+.pop-img-container {
+  border: 0.5px #d6d6d6 solid;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+/* MyWorksSection */
+
+
+
+/* Pop up  */
+
+
 
 /* ---  MEDIA QUERIES --- */
 
@@ -816,7 +839,7 @@ footer h3:hover {
     margin-left: 20%;
   }
 
-  #ex-li-3 {
+  .ex-li-3 {
     margin-left: auto;
     margin-right: auto;
   }
@@ -918,4 +941,14 @@ footer h3:hover {
     margin: 0 auto;
     width: 15vw;
   }
+
+  .see-project {
+    color: #1a2236;
+    border: 1px solid #fff;
+    background-color: #fff;
+  }
+
+  /* Pop up desktop size */
+
+
 }
