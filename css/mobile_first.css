@@ -618,17 +618,18 @@ footer h3:hover {
   }
 
   .flex-nav-list {
-    font-size: 19px;
+    font-size: 15px;
     display: flex;
     position: fixed;
     left: -150%;
     top: -20px;
     padding-top: 10px;
     gap: 0;
-    background-color: #60c095;
+    background-color: var(--verde);
+    border: 3px black solid;
     width: 100%;
     text-align: center;
-    transition: 1s;
+    transition: 0.5s;
     font-weight: 700;
   }
 
@@ -637,7 +638,7 @@ footer h3:hover {
   }
 
   .flex-navbar a:hover {
-    color: var(--verde);
+    color: red;
   }
 
   .nav-link{
@@ -663,6 +664,15 @@ footer h3:hover {
 
   .menu.active .menu-line:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .menu.active:hover{
+    transition: 1s;
+    background-color: red;
+  }
+
+  #my-recent-works {
+    margin-top: 20%;
   }
 }
 
