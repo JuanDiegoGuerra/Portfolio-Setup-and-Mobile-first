@@ -50,5 +50,18 @@ const ProjectCardsDetails = [
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
+  },
+  {
+      id: 'work4',
+      projectName: 'Caesar Cipher',
+      projectInfo:
+        "Caesar Cipher is a personal project that I made watching a video and practicing what I learnd in my Web Developer journey.",
+      ProjectIMG: [
+        'img/project_imgs/caesar_cipher_preview.gif'
+      ],
+      languages: ['CSS', 'HTML5', 'Github', 'Javascript'],
+      seeProject: 'See Project',
+      SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
+      SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
   }        
 ]   
