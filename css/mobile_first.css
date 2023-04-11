@@ -645,7 +645,7 @@ footer h3:hover {
     color: red;
   }
 
-  .nav-link{
+  .nav-link {
     transition: 0.3s ease-out;
   }
 
@@ -653,24 +653,24 @@ footer h3:hover {
     left: 0;
   }
 
-  .menu{
+  .menu {
     display: block;
     position: fixed;
   }
 
-  .menu.active .menu-line:nth-child(2){
+  .menu.active .menu-line:nth-child(2) {
     opacity: 0;
   }
 
-  .menu.active .menu-line:nth-child(1){
+  .menu.active .menu-line:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  .menu.active .menu-line:nth-child(3){
+  .menu.active .menu-line:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .menu.active:hover{
+  .menu.active:hover {
     transition: 1s;
     background-color: red;
   }
