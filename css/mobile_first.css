@@ -1091,4 +1091,20 @@ footer h3:hover {
     margin: 1.5rem 0;
   }
 
+  .img-icons,
+  .pop-btns,
+  .popup-container .notes {
+    display: flex;
+    align-self: center;
+  }
+
+  .pop-btns {
+    width: 60%;
+    position: relative;
+  }
+
+  .popup-btn button i {
+    font-size: 1.5rem;
+  }
+
 }
