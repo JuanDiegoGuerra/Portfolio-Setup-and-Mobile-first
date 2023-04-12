@@ -885,6 +885,14 @@ footer h3:hover {
     font-size: 32px;
   }
 
+  .popup-container .work-tool{
+    padding: 12px 15px;
+  }
+
+  .work-tool{
+    font-size: 12px;
+  }
+
 }
 
 /* --- DESKTOP SIZE --- */
