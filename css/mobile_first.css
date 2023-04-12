@@ -658,10 +658,6 @@ footer h3:hover {
   margin: 1% 0 2% 5%;
 }
 
-/* .work-name {
-  margin: 40% 0 2% 0%;
-} */
-
 /* Pop up  */
 .popup {
   background: #C1C7D0;
@@ -867,6 +863,7 @@ footer h3:hover {
 }
 .popup-container .notes {
     padding-left: 15px;
+    border-radius: 16px;
 }
 
 .popup-container {
@@ -1129,17 +1126,13 @@ footer h3:hover {
   /* Pop up desktop size */
 
   .popup {
-    /* background-color: #1a2236; */
     background: rgba(0,0,0,.8);
-    /* margin-left: 260px;
-    margin-right: 260px;
-    margin-top: 20px; */
   }
 
   .popup-container {
     height: 80vh;
     position: relative;
-    /* padding-left: 20%; */
+    border-radius: 8px;
   }
 
   .popup-container .project-name {
