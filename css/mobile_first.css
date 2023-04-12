@@ -61,10 +61,10 @@ body {
 
 .external_link a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 15px;
   line-height: 20px;
-  color: #595959;
+  color: #fff;
   text-align: center;
   resize: none;
 }
@@ -692,7 +692,7 @@ footer h3:hover {
 
 .popup-container .see-project {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 20rem;
   width: 80%;
   margin: auto;
@@ -780,6 +780,9 @@ footer h3:hover {
   text-decoration: none;
   border-radius: 8px;
   background-color: #36b37e;
+}
+
+.light-btn a{
   color: #fff;
 }
 
@@ -866,6 +869,10 @@ footer h3:hover {
   .popup-container {
     height: 85vh;
     width: 93vw;
+  }
+
+  .popup-container .see-project {
+    width: 45%;
   }
 }
 
@@ -1117,6 +1124,10 @@ footer h3:hover {
   .see-project {
     color: #fff;
     border: 1px solid #fff;
+  }
+
+  .pop-btns {
+    display: flex;
   }
 
   /* Pop up desktop size */
