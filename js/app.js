@@ -20,7 +20,7 @@ const ProjectCardsDetails = [
     ProjectIMG: [
       'img/project_imgs/hello_microverse.JPG',
     ],
-    languages: ['Git', 'Github', 'CSS', 'HTML5'],
+    languages: ['Github', 'CSS', 'HTML5'],
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Hello-Microverse-Project',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Hello-Microverse-Project',
@@ -33,7 +33,7 @@ const ProjectCardsDetails = [
     ProjectIMG: [
       'img/project_imgs/setup_portfolio.JPG',
     ],
-    languages: ['HTML5', 'Javascript', 'CSS', 'Github'],
+    languages: ['HTML5', 'Javascript', 'CSS'],
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
@@ -46,7 +46,7 @@ const ProjectCardsDetails = [
     ProjectIMG: [
       'img/project_imgs/pokedex_preview2.gif',
     ],
-    languages: ['Javascript', 'HTML5', 'CSS', 'Github'],
+    languages: ['Javascript', 'HTML5', 'CSS'],
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
@@ -59,7 +59,7 @@ const ProjectCardsDetails = [
     ProjectIMG: [
       'img/project_imgs/caesar_cipher_preview.gif',
     ],
-    languages: ['CSS', 'HTML5', 'Github', 'Javascript'],
+    languages: ['CSS', 'HTML5', 'Javascript'],
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
@@ -72,7 +72,7 @@ const ProjectCardsDetails = [
     ProjectIMG: [
       'img/project_imgs/chronometer_preview.gif',
     ],
-    languages: ['HTML5', 'Javascript', 'CSS', 'Github'],
+    languages: ['HTML5', 'Javascript', 'CSS'],
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
@@ -85,7 +85,7 @@ const ProjectCardsDetails = [
     ProjectIMG: [
       'img/project_imgs/try_boostrap.JPG',
     ],
-    languages: ['Boostrap', 'HTML5', 'CSS', 'Github'],
+    languages: ['Boostrap', 'HTML5', 'CSS'],
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
@@ -112,13 +112,12 @@ PopupWindow.forEach((p, index) => {
           <li class="work-tool">${ProjectCardsDetails[index].languages[0]}</li>
           <li class="work-tool">${ProjectCardsDetails[index].languages[1]}</li>
           <li class="work-tool">${ProjectCardsDetails[index].languages[2]}</li>
-          <li class="work-tool">${ProjectCardsDetails[index].languages[3]}</li>
         </ul>
         <p class="notes">
         ${ProjectCardsDetails[index].projectInfo}
         </p>
-        <div class="pop-btns">
-          <button class="see-project more-info light-btn">
+        <div class="pop-btns" style="display: flex;">
+          <button class="see-project more-info light-btn style="text-decoration: none;">
           <a href="${ProjectCardsDetails[index].SeeLive}">See Live 
           <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
           <button class="see-project light-btn">
