@@ -701,13 +701,10 @@ footer h3:hover {
   max-width: 20rem;
   width: 80%;
   margin: auto;
-  background-color: #fff;
-  color: #1a2236;
-  border: 1px solid #1a2236;
   position: relative;
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
-  padding: 10px;
+  padding: 15px;
 }
 
 .popup-container .see-project i {
@@ -715,6 +712,10 @@ footer h3:hover {
   right: 0;
   margin-right: 10%;
   font-size: 1.5rem;
+}
+
+.popup-container .see-project a {
+  text-decoration: none;
 }
 
 .popup-container .notes {
@@ -780,6 +781,13 @@ footer h3:hover {
   display: flex;
   justify-content: flex-start;
   padding: 0;
+}
+
+.light-btn {
+  text-decoration: none;
+  border-radius: 8px;
+  background-color: #36b37e;
+  color: #fff;
 }
 
 /* ---  MEDIA QUERIES --- */
@@ -1097,9 +1105,8 @@ footer h3:hover {
   }
 
   .see-project {
-    color: #1a2236;
+    color: #fff;
     border: 1px solid #fff;
-    background-color: #fff;
   }
 
   /* Pop up desktop size */
