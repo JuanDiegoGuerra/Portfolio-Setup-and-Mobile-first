@@ -164,7 +164,7 @@ body {
 h3 {
   margin-top: 12px;
   margin-bottom: 0;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 18px;
   color: var(--gris);
   line-height: 25px;
@@ -784,6 +784,7 @@ footer h3:hover {
 
 .light-btn a{
   color: #fff;
+  text-decoration: none;
 }
 
 /* ---  MEDIA QUERIES --- */
