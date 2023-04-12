@@ -650,6 +650,8 @@ footer h3:hover {
   font-size: 0.7rem;
   line-height: 80%;
   margin: 5px;
+  border-radius: 8px;
+  background: #EBECF0;
 }
 
 .work-name {
@@ -690,8 +692,7 @@ footer h3:hover {
 }
 
 .popup-container .work-tool {
-  background-color: unset;
-  border: 1px solid #1a2236;
+  padding: 15px 30px;
 }
 
 .popup-container .see-project {
@@ -706,6 +707,7 @@ footer h3:hover {
   position: relative;
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
+  padding: 10px;
 }
 
 .popup-container .see-project i {
@@ -718,6 +720,8 @@ footer h3:hover {
 .popup-container .notes {
   width: 100%;
   margin: 1.5rem 0;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .slider {
@@ -1109,7 +1113,7 @@ footer h3:hover {
   }
 
   .popup-container {
-    height: 100vh;
+    height: 80vh;
     position: relative;
     /* padding-left: 20%; */
   }
