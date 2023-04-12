@@ -1126,11 +1126,11 @@ footer h3:hover {
   /* Pop up desktop size */
 
   .popup {
-    background: rgba(0,0,0,.8);
+    background: rgba(50,50,50,.8);
   }
 
   .popup-container {
-    height: 80vh;
+    height: 90vh;
     position: relative;
     border-radius: 8px;
   }
