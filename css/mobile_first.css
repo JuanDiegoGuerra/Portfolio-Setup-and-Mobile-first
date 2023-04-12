@@ -865,16 +865,26 @@ footer h3:hover {
   .popup-container .notes {
     padding-left: 15px;
     border-radius: 16px;
+    margin-right: 5%;
+    width: 90%;
+    margin-top: 0;
+    font-size: 16px;
   }
 
   .popup-container {
-    height: 85vh;
-    width: 93vw;
+    height: 82vh;
+    width: 90vw;
+    border-radius: 16px;
   }
 
   .popup-container .see-project {
     width: 45%;
   }
+
+  .popup-container .project-name {
+    font-size: 32px;
+  }
+
 }
 
 /* --- DESKTOP SIZE --- */
