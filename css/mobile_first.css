@@ -549,7 +549,7 @@ h3 {
   margin: 0 auto;
 }
 
-#contact-button a{    
+#contact-button a {
   text-decoration: none;
 }
 
@@ -642,7 +642,6 @@ footer h3:hover {
 
 /* MyWorksSection */
 .work-tool {
-  background-color: #98dede;
   padding: 0.5rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -651,7 +650,7 @@ footer h3:hover {
   line-height: 80%;
   margin: 5px;
   border-radius: 8px;
-  background: #EBECF0;
+  background: #ebecf0;
 }
 
 .work-name {
@@ -660,7 +659,7 @@ footer h3:hover {
 
 /* Pop up  */
 .popup {
-  background: #C1C7D0;
+  background: #c1c7d0;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -708,10 +707,6 @@ footer h3:hover {
   right: 0;
   margin-right: 10%;
   font-size: 1.5rem;
-}
-
-.popup-container .see-project a {
-  text-decoration: none;
 }
 
 .popup-container .notes {
@@ -860,17 +855,17 @@ footer h3:hover {
     height: 50vw;
     position: relative;
     padding-left: 10px;
-}
-.popup-container .notes {
+  }
+
+  .popup-container .notes {
     padding-left: 15px;
     border-radius: 16px;
-}
+  }
 
-.popup-container {
-  height: 85vh;
-  width: 93vw;
-}
-
+  .popup-container {
+    height: 85vh;
+    width: 93vw;
+  }
 }
 
 /* --- DESKTOP SIZE --- */
@@ -1126,7 +1121,7 @@ footer h3:hover {
   /* Pop up desktop size */
 
   .popup {
-    background: rgba(50,50,50,.8);
+    background: rgba(50, 50, 50, 0.8);
   }
 
   .popup-container {
@@ -1155,13 +1150,13 @@ footer h3:hover {
   }
 
   .slider {
+    width: 30%;
+    display: flex;
+    position: relative;
     height: auto;
   }
-
-  .slider { width: 30%;}
   .img-icons { width: 80vw; }
 
-  .slider,
   .img-icons,
   .pop-btns,
   .popup-container .notes {
@@ -1177,5 +1172,4 @@ footer h3:hover {
   .popup-btn button i {
     font-size: 1.5rem;
   }
-
 }
