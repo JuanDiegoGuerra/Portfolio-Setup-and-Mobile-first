@@ -108,7 +108,7 @@ PopupWindow.forEach((p, index) => {
             </div>
         </div>
         <h2 class="project-name work-name">${ProjectCardsDetails[index].projectName}</h2>
-        <ul class="works-tools">
+        <ul class="works-tools work-name">
           <li class="work-tool">${ProjectCardsDetails[index].languages[0]}</li>
           <li class="work-tool">${ProjectCardsDetails[index].languages[1]}</li>
           <li class="work-tool">${ProjectCardsDetails[index].languages[2]}</li>
