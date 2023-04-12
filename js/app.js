@@ -46,7 +46,7 @@ const ProjectCardsDetails = [
     ProjectIMG: [
       'img/project_imgs/pokedex_preview2.gif'
     ],
-    languages: ['HTML5', 'Javascript', 'CSS', 'Github'],
+    languages: ['Javascript', 'HTML5', 'CSS', 'Github'],
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
@@ -85,7 +85,7 @@ const ProjectCardsDetails = [
     ProjectIMG: [
       'img/project_imgs/try_boostrap.JPG'
     ],
-    languages: ['HTML5', 'Javascript', 'CSS', 'Github'],
+    languages: ['Boostrap', 'HTML5', 'CSS', 'Github'],
     seeProject: 'See Project',
     SeeLive: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
     SeeSource: 'https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first',
@@ -107,7 +107,7 @@ PopupWindow.forEach((p, index) => {
             <img id="project-img" class="project-img" src="${ProjectCardsDetails[index].ProjectIMG[0]}" alt="">
             </div>
         </div>
-        <h2 class="project-name work-name">${ProjectCardsDetails[index].projectName}</h2>
+        <h2 class="project-name work-name" id="workname-title">${ProjectCardsDetails[index].projectName}</h2>
         <ul class="works-tools work-name">
           <li class="work-tool">${ProjectCardsDetails[index].languages[0]}</li>
           <li class="work-tool">${ProjectCardsDetails[index].languages[1]}</li>
