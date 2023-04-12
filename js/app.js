@@ -16,7 +16,8 @@ const ProjectCardsDetails = [
     id: 'work1',
     projectName: 'Hello-Microverse',
     projectInfo:
-      'Hello-Microverse-Project is mean to be an example of how to set up a simple project using git & github best practices.',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum has been the industrys standard dummy text ever.',
+      //'Hello-Microverse-Project is mean to be an example of how to set up a simple project using git & github best practices.',
     ProjectIMG: [
       'img/project_imgs/hello_microverse.JPG',
     ],
@@ -29,7 +30,8 @@ const ProjectCardsDetails = [
     id: 'work2',
     projectName: 'Setup-Mobile-First',
     projectInfo:
-      'Setup-Mobile-First is a project in where you built your own portfolio website using Frontend Dev Tools.',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum has been the industrys standard dummy text ever.',
+      //'Setup-Mobile-First is a project in where you built your own portfolio website using Frontend Dev Tools.',
     ProjectIMG: [
       'img/project_imgs/setup_portfolio.JPG',
     ],
@@ -42,7 +44,8 @@ const ProjectCardsDetails = [
     id: 'work3',
     projectName: 'Pokedex',
     projectInfo:
-      'Pokedex is a personal project that I made watching a video and practicing what I learnd in my Web Developer journey.',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum has been the industrys standard dummy text ever.',
+      //'Pokedex is a personal project that I made watching a video and practicing what I learnd in my Web Developer journey.',
     ProjectIMG: [
       'img/project_imgs/pokedex_preview2.gif',
     ],
@@ -55,7 +58,8 @@ const ProjectCardsDetails = [
     id: 'work4',
     projectName: 'Caesar Cipher',
     projectInfo:
-      'Caesar Cipher is a personal project that I made watching a video and practicing what I learnd in my Web Developer journey.',
+     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum has been the industrys standard dummy text ever.',
+      //'Caesar Cipher is a personal project that I made watching a video and practicing what I learnd in my Web Developer journey.',
     ProjectIMG: [
       'img/project_imgs/caesar_cipher_preview.gif',
     ],
@@ -68,7 +72,8 @@ const ProjectCardsDetails = [
     id: 'work5',
     projectName: 'Chronometer',
     projectInfo:
-      'Chronometer is a personal project that I made watching a video and practicing what I learnd in my Web Developer journey.',
+     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum has been the industrys standard dummy text ever.',
+      //'Chronometer is a personal project that I made watching a video and practicing what I learnd in my Web Developer journey.',
     ProjectIMG: [
       'img/project_imgs/chronometer_preview.gif',
     ],
@@ -81,7 +86,8 @@ const ProjectCardsDetails = [
     id: 'work6',
     projectName: 'Try Boostrap',
     projectInfo:
-      'Try Boostrap is a project in where you built your own portfolio website using Boostrap.',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum has been the industrys standard dummy text ever.',
+    //'Try Boostrap is a project in where you built your own portfolio website using Boostrap.',
     ProjectIMG: [
       'img/project_imgs/try_boostrap.JPG',
     ],
