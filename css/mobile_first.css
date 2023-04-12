@@ -763,6 +763,7 @@ footer h3:hover {
   top: 1.4rem;
   right: 1.4rem;
   font-size: 2rem;
+  z-index: 1;
 }
 
 .display-visible { display: flex; }
@@ -1150,10 +1151,10 @@ footer h3:hover {
   }
 
   .slider {
-    width: 30%;
     display: flex;
     position: relative;
     height: auto;
+    justify-content: center;
   }
   .img-icons { width: 80vw; }
 
