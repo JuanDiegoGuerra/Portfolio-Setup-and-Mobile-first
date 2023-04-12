@@ -24,6 +24,17 @@ body {
   display: none;
 }
 
+.display-flex-column,
+.flex-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-list {
+  list-style: none;
+  width: 100%;
+}
+
 .menu {
   display: block;
   position: absolute;
@@ -642,8 +653,12 @@ footer h3:hover {
 }
 
 .work-name {
-  margin: 40% 0 2% 0%;
+  margin: 1% 0 2% 5%;
 }
+
+/* .work-name {
+  margin: 40% 0 2% 0%;
+} */
 
 /* Pop up  */
 .popup {
@@ -826,6 +841,10 @@ footer h3:hover {
   #my-recent-works {
     margin-top: 20%;
   }
+
+  .work-name {
+    margin: 40% 0 2% 0%;
+  }
 }
 
 /* --- DESKTOP SIZE --- */
@@ -847,6 +866,11 @@ footer h3:hover {
     align-items: center;
     padding: 0;
     gap: 8px;
+  }
+
+  .flex-list {
+    flex-direction: row;
+    justify-content: center;
   }
 
   .list-item {
@@ -1077,12 +1101,17 @@ footer h3:hover {
   /* Pop up desktop size */
 
   .popup {
-    background-color: #1a2236;
+    /* background-color: #1a2236; */
+    background: rgba(0,0,0,.8);
+    /* margin-left: 260px;
+    margin-right: 260px;
+    margin-top: 20px; */
   }
 
   .popup-container {
-    height: 90vh;
+    height: 100vh;
     position: relative;
+    /* padding-left: 20%; */
   }
 
   .popup-container .project-name {
@@ -1108,7 +1137,7 @@ footer h3:hover {
     height: auto;
   }
 
-  .slider,
+  .slider { width: 30%;}
   .img-icons { width: 80vw; }
 
   .slider,
