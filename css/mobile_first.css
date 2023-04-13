@@ -16,6 +16,11 @@ body {
   background-color: var(--blanco);
   font-family: 'Inter', sans-serif;
   margin: 0;
+  overflow-x: hidden;
+}
+
+.overflow-wrapper {
+  overflow-x: hidden;
 }
 
 a {
@@ -330,7 +335,7 @@ h3 {
   justify-content: center;
   border-radius: 3px;
   font-size: 12px;
-  color: #000;
+  color: var(--gris);
   padding: 10px 15px 10px 15px;
   list-style: none;
 }
@@ -469,7 +474,7 @@ h3 {
 
 .project-1 {
   order: 1;
-  margin: 20px 24px 0 24px;
+  margin: 20px 24px 0 30px;
   border-radius: 8px;
   border: 0.5px solid #d0d9d4;
   text-align: center;
@@ -478,7 +483,7 @@ h3 {
 
 .project-2 {
   order: 2;
-  margin: 20px 24px 0 24px;
+  margin: 20px 24px 0 30px;
   border-radius: 8px;
   border: 0.5px solid #d0d9d4;
   text-align: center;
