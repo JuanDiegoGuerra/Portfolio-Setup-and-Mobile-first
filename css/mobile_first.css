@@ -3,7 +3,7 @@
 :root {
   --blanco: #f9f9f9;
   --negro: #36383f;
-  --gris: #3A4A42;
+  --gris: #3a4a42;
   --verde: #36b37e;
   --amarillo: #fffb00;
 } /* variables in spanish (for fun) */
@@ -691,7 +691,7 @@ footer h3:hover {
 .popup-container::-webkit-scrollbar { display: none; }
 
 .popup-container .project-name {
-  color: #172B4D;
+  color: #172b4d;
   font-weight: 700;
 }
 
