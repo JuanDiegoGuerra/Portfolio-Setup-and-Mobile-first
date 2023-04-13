@@ -32,7 +32,6 @@ const ProjectCardsDetails = [
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industrys standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled.',
     ProjectIMG: [
       'img/Snapshoot_Portfolio.png',
-      // 'img/project_imgs/setup_portfolio.JPG',
     ],
     languages: ['HTML5', 'Javascript', 'CSS'],
     seeProject: 'See Project',
@@ -46,7 +45,6 @@ const ProjectCardsDetails = [
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industrys standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled.',
     ProjectIMG: [
       'img/Snapshoot_Portfolio.png',
-      // 'img/project_imgs/pokedex_preview2.gif',
     ],
     languages: ['Javascript', 'HTML5', 'CSS'],
     seeProject: 'See Project',
@@ -60,7 +58,6 @@ const ProjectCardsDetails = [
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industrys standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled.',
     ProjectIMG: [
       'img/Snapshoot_Portfolio.png',
-      // 'img/project_imgs/caesar_cipher_preview.gif',
     ],
     languages: ['CSS', 'HTML5', 'Javascript'],
     seeProject: 'See Project',
@@ -74,7 +71,6 @@ const ProjectCardsDetails = [
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industrys standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled.',
     ProjectIMG: [
       'img/Snapshoot_Portfolio.png',
-      // 'img/project_imgs/chronometer_preview.gif',
     ],
     languages: ['HTML5', 'Javascript', 'CSS'],
     seeProject: 'See Project',
@@ -88,7 +84,6 @@ const ProjectCardsDetails = [
     'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.Lorem Ipsum has been the industrys standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled.',
     ProjectIMG: [
       'img/Snapshoot_Portfolio.png',
-      // 'img/project_imgs/try_boostrap.JPG',
     ],
     languages: ['Boostrap', 'HTML5', 'CSS'],
     seeProject: 'See Project',
