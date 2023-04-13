@@ -660,7 +660,7 @@ footer h3:hover {
 /* Pop up  */
 .popup {
   background: #c1c7d0;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -789,7 +789,7 @@ footer h3:hover {
 
 /* ---  MEDIA QUERIES --- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .headline-title2 {
     display: none;
   }
@@ -896,8 +896,319 @@ footer h3:hover {
 
 }
 
+/* SMALL DESKTOP SIZE */
+@media (min-width:601px) and (max-width:1024px){
+  .project-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+
+  .lang-frame-skill {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .menu-line {
+    display: none;
+  }
+
+  .flex-nav-list {
+    position: absolute;
+    width: auto;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .flex-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .list-item {
+    list-style-type: none;
+    padding: 10px 12px;
+    gap: 10px;
+    font-weight: 600;
+    color: #344563;
+    font-size: 12px;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  .index-page {
+    width: 100%;
+    background-image:
+      url("../img/Action.png"),
+      url("../img/piramid.png"),
+      url("../img/revertsquare.png"),
+      url("../img/elipsir.png"),
+      url("../img/elipsir-transparent.png"),
+      url("../img/square.png"),
+      url("../img/square2-transparent.png"),
+      url("../img/rock.png"),
+      url("../img/lines_group.png");
+    background-repeat: no-repeat;
+    background-size:
+      25%,
+      20%,
+      20%,
+      22%,
+      10%,
+      15%,
+      7%,
+      20%,
+      100%;
+    background-position:
+      50% 50%,
+      0% 40%,
+      104% 35%,
+      75% 85%,
+      40% 75%,
+      15% 85%,
+      30% 10%,
+      80% 0%,
+      50% 50%;
+  }
+
+  .headline-title {
+    display: none;
+  }
+
+  .headline-title2 {
+    display: block;
+    font-weight: bold;
+    font-size: 33px;
+    color: var(--gris);
+    text-align: center;
+    margin: 0 24px;
+  }
+
+  #headline-section p {
+    font-size: 20px;
+    margin: 2% 10% 0% 10%;
+    line-height: 32px;
+  }
+
+  #social-icons {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  #my-recent-works {
+    width: 100%;
+    align-content: center;
+  }
+
+  .menu-line-recent-works {
+    display: none;
+  }
+
+  #about-me {
+    width: 100%;
+  }
+
+  .about-me-bg {
+    width: 100%;
+    background-image:
+      url(../img/illustration-\ about\ me-\ desktop-1.png),
+      url(../img/illustration-\ about\ me-\ desktop-2.png);
+    background-repeat: no-repeat;
+    background-size: 12%, 10%;
+    background-position:
+      0% 60%,
+      100% -20%;
+  }
+
+  .about-me-tittle {
+    font-size: 20px;
+  }
+
+  .parraf {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  .ex-li-3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bg_final {
+    width: 100%;
+    height: 30vh;
+    background-image:
+      url(../img/bg_final_desktop1.png),
+      url(../img/bg_final_desktop2.png),
+      url(../img/bg_final_desktop3.png);
+    background-repeat: no-repeat;
+    background-size: 10%, 10%, 7%;
+    background-position: 0% 100%, 25% 80%, 100% 50%;
+  }
+
+  .contact-socials {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-me-mail {
+    display: none;
+  }
+
+  .icon-2 {
+    width: 100%;
+    margin: 0% 0% 0% 33%;
+    border-top: 1px solid #dfe1e6;
+  }
+
+  #footer-social {
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  #about-me-section-4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .am-contact-me-main-grid {
+    margin-left: -100%;
+  }
+
+  #about-me-section-4 h2 {
+    font-size: 17px;
+    margin-bottom: 15%;
+  }
+
+  #about-me-section-4 button {
+    margin-left: 0%;
+  }
+
+  .contact input {
+    border-radius: 4px;
+  }
+
+  .contact textarea {
+    border-radius: 4px;
+  }
+
+  .inputs-form {
+    display: none;
+  }
+
+  .first-last-name {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+  }
+
+  .input-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+
+  .inputs-form2 {
+    display: grid;
+    padding: 0;
+    width: 140%;
+    margin-left: -10%;
+  }
+
+  .contact-title {
+    line-height: 52px;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 15vw;
+  }
+
+  .see-project {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .pop-btns {
+    display: flex;
+  }
+
+  /* Pop up desktop size */
+
+  .popup {
+    background: rgba(50, 50, 50, 0.8);
+  }
+
+  .popup-container {
+    height: 80vh;
+    position: relative;
+    border-radius: 8px;
+  }
+
+  .popup-container .project-name {
+    font-size: 32px;
+  }
+
+  .popup-container .work-tool {
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  .popup-container .see-project {
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  .popup-container .notes {
+    width: 90%;
+    margin: 1.5rem 0;
+  }
+
+  .slider {
+    display: flex;
+    position: relative;
+    height: auto;
+    justify-content: center;
+  }
+  .img-icons { width: 80vw; }
+
+  .img-icons,
+  .pop-btns,
+  .popup-container .notes {
+    display: flex;
+    align-self: center;
+  }
+
+  .pop-btns {
+    width: 60%;
+    position: relative;
+  }
+
+  .popup-btn button i {
+    font-size: 1.5rem;
+  }
+  
+}
+
 /* --- DESKTOP SIZE --- */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025px) {
   body {
     width: 100%;
   }
@@ -1157,13 +1468,13 @@ footer h3:hover {
   }
 
   .popup-container {
-    height: 90vh;
+    height: 80vh;
     position: relative;
     border-radius: 8px;
   }
 
   .popup-container .project-name {
-    font-size: 3.75rem;
+    font-size: 32px;
   }
 
   .popup-container .work-tool {
@@ -1177,7 +1488,7 @@ footer h3:hover {
   }
 
   .popup-container .notes {
-    width: 60%;
+    width: 90%;
     margin: 1.5rem 0;
   }
 
