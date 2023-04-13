@@ -123,10 +123,10 @@ PopupWindow.forEach((p, index) => {
         </p>
         <div class="pop-btns" style="display: flex;">
           <button class="see-project more-info light-btn">
-          <a href="${ProjectCardsDetails[index].SeeLive}">See Live 
+          <a href="${ProjectCardsDetails[index].SeeLive}" class="aseelives">See Live 
           <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
           <button class="see-project light-btn">
-          <a href="${ProjectCardsDetails[index].SeeSource}">See Source 
+          <a href="${ProjectCardsDetails[index].SeeSource}" class="aseelives">See Source 
           <i class="fa fa-github" aria-hidden="true"></i></a> </button>
         </div>
       </div>`;
