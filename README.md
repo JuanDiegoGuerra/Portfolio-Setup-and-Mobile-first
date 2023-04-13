@@ -34,7 +34,7 @@
 
 # 📖 [Setup-Portfolio-and-Mobile-First] <a name="about-project"></a>
 
-**[Setup-Portfolio-and-Mobile-First]** 
+**[Setup-Portfolio-and-Mobile-First is a project in where you built your own portfolio website using Frontend Dev Tools.]** 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,6 +47,7 @@
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
@@ -63,7 +64,7 @@
   <ul>
     <li>VS Code</li>
   </ul>
-</details>
+</details> <br>
 
 <!-- Features -->
 
@@ -101,9 +102,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Git
-Github web or desktop
-VS Code
+Git,
+Github web or Github desktop,
+VS Code and
 Node.js (to use npm commands)
   "not sure how to use npm? Read" <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" rel="nofollow">this</a>.
 
@@ -112,10 +113,10 @@ Node.js (to use npm commands)
 
 Clone this repository to your desired folder:
 
-1️⃣ Open Git Bash.
-2️⃣ Change the current working directory to the location where you want the cloned directory.
-3️⃣ Type: `git clone https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first.git`
-4️⃣ Press Enter to create your local clone.
+- 1️⃣ Open Git Bash.
+- 2️⃣ Change the current working directory to the location where you want the cloned directory.
+- 3️⃣ Type: `git clone https://github.com/JuanDiegoGuerra/Portfolio-Setup-and-Mobile-first.git`
+- 4️⃣ Press Enter to create your local clone.
 
 ### Install
 
@@ -171,7 +172,6 @@ VS Code and Google Chrome.
 👤 **Juan Diego Guerra**
 
 - GitHub: [@JuanDiegoGuerra](https://github.com/JuanDiegoGuerra)
-- Twitter: [@JdxElric147](https://twitter.com/JdxElric147)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,11 +179,11 @@ VS Code and Google Chrome.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Features that will be added to the project.
 
-- [ ] **[More_elements_to_main_page]**
-- [ ] **[New_styles_in_all_pages]**
-- [ ] **[More_content_in_general]**
+- [ 1 ] **[Better_transitions]**
+- [ 2 ] **[Better_javascript_actions]**
+- [ 3 ] **[More_content_in_general]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +197,7 @@ VS Code and Google Chrome.
 - GitHub: [@CesarHerr](https://github.com/CesarHerr)
 
 
-Feel free to check the [issues page](../../issues/).
+-> Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,7 +207,7 @@ Feel free to check the [issues page](../../issues/).
 
 > You can support following me.
 
-If you like this project you can follow me 🤩! I will be adding more helpful material 😁.
+ - If you like this project you can follow me 🤩! I will be adding more useful material 😁.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,22 +217,22 @@ If you like this project you can follow me 🤩! I will be adding more helpful m
 
 > Credits to: 
 
-I would like to thank my gf 😳 because she fed me when I was starving after coding for a lot of hours 🤭.
-I would like to thank to my reviewer too because he inspired me finish this challenge as it has to be 💪🏼.
+ - I would like to thank my gf 😳 because she fed me when I was starving after coding for a lot of hours 🤭.
+ - I would like to thank to my reviewer too because he inspired me finish this challenge as it has to be 💪🏼.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ (Frequently Asked Questions) <a name="faq"></a>
 
-> You could face some problems like me when doing this for the first time, so check this FAQ.
+> You could face some problems when doing this project for the first time, so please check this FAQ.
 
 - **[Why_is_my_Lighthouse_linter_not_working_?]**
 
   - [If you have this specific problem, go to your ".yml" file and check the node-version of the specific linter. Best version for this project is "14" (in my case it was "18x" and I changed it)]
 
-- **[Wich_files_should_I_add_in_gitignore_?]**
+- **[Wich_files_should_I_add_in_my_gitignore_?]**
 
   - [Feel free to add any file you think is not necessary to be on your repo, but be careful when you add or create new files that might not be necessary in your repo but aren't written in your gitignore.]
 
