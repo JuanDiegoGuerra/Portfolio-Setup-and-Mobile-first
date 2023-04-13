@@ -19,3 +19,26 @@ formValidatorM.addEventListener("submit", (event) => {
     }  
   
   });
+
+  formValidatorD.addEventListener("submit", (event) => {  
+ 
+    if ((/[A-Z]/).test(emailValidatorD.value)) {
+      event.preventDefault(); 
+      
+      errorMessage.innerHTML =` 
+      Please use lowercase letters in your email address `;
+  
+      errorD.appendChild(errorMessage);
+    }  
+  
+  });
+
+  emailValidatorM.addEventListener('click', () => {
+    errorMessage.innerHTML =``;
+
+})
+
+emailValidatorD.addEventListener('click', () => {
+    errorMessage.innerHTML =``;
+
+})
