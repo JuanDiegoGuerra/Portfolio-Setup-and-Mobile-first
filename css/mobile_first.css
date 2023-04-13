@@ -3,7 +3,7 @@
 :root {
   --blanco: #f9f9f9;
   --negro: #36383f;
-  --gris: #172c4f;
+  --gris: #3A4A42;
   --verde: #36b37e;
   --amarillo: #fffb00;
 } /* variables in spanish (for fun) */
@@ -686,7 +686,7 @@ footer h3:hover {
 .popup-container::-webkit-scrollbar { display: none; }
 
 .popup-container .project-name {
-  color: #1a2236;
+  color: #172B4D;
   font-weight: 700;
 }
 
@@ -718,6 +718,7 @@ footer h3:hover {
   margin: 1.5rem 0;
   font-size: 20px;
   line-height: 30px;
+  color: #344563;
 }
 
 .slider {
