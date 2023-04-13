@@ -786,7 +786,17 @@ footer h3:hover {
   background-color: #36b37e;
 }
 
+.fa-external-link {
+  color: #fff;
+}
 
+.fa-github {
+  color: #fff;
+}
+
+.aseelives {
+  color: #fff;
+}
 
 /* ---  MEDIA QUERIES --- */
 
