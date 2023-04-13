@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ----- Elements ----- */
 
 .flex-nav-list {
@@ -782,10 +786,7 @@ footer h3:hover {
   background-color: #36b37e;
 }
 
-.light-btn a{
-  color: #fff;
-  text-decoration: none;
-}
+
 
 /* ---  MEDIA QUERIES --- */
 
@@ -812,6 +813,11 @@ footer h3:hover {
 
   .list-item {
     margin: 16px 0;
+  }
+
+  .light-btn a {
+    color: #fff;
+    text-decoration: none;
   }
 
   .flex-navbar a:hover {
@@ -886,18 +892,14 @@ footer h3:hover {
     font-size: 32px;
   }
 
-  .popup-container .work-tool{
+  .popup-container .work-tool {
     padding: 12px 15px;
-  }
-
-  .work-tool{
     font-size: 12px;
   }
-
 }
 
 /* SMALL DESKTOP SIZE */
-@media (min-width:601px) and (max-width:1024px){
+@media (min-width: 601px) and (max-width: 1024px) {
   .project-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -1148,6 +1150,8 @@ footer h3:hover {
 
   .pop-btns {
     display: flex;
+    width: 60%;
+    position: relative;
   }
 
   /* Pop up desktop size */
@@ -1196,15 +1200,9 @@ footer h3:hover {
     align-self: center;
   }
 
-  .pop-btns {
-    width: 60%;
-    position: relative;
-  }
-
   .popup-btn button i {
     font-size: 1.5rem;
   }
-  
 }
 
 /* --- DESKTOP SIZE --- */
@@ -1455,10 +1453,6 @@ footer h3:hover {
   .see-project {
     color: #fff;
     border: 1px solid #fff;
-  }
-
-  .pop-btns {
-    display: flex;
   }
 
   /* Pop up desktop size */
