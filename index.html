@@ -256,24 +256,24 @@
         </div>
         <div class="inputs-form" id="formMobile">
          <form class="contact" action="https://formspree.io/f/mqkoyzva" method="post">
-           <input type="text" name="name" placeholder="Full Name" maxlength="30" required>
+           <input id="fullname" type="text" name="name" placeholder="Full Name" maxlength="30" required>
            <div class="email-validatorMobile">
            <input id="emailMobile" type="email" name="email" placeholder="Email address" required>
            </div>
-           <textarea class="txtS" name="message" rows="4" maxlength="500" required placeholder="Hey I’d like to connect to..."></textarea>
+           <textarea class="txtS" id="txtSMobile" name="message" rows="4" maxlength="500" required placeholder="Hey I’d like to connect to..."></textarea>
            <button type="submit" name="submit" id="contact-button">Get in touch</button>
         </form>
         </div>
         <div class="inputs-form2" id="formDesktop">
         <form class="contact" action="https://formspree.io/f/mqkoyzva" method="post">
             <div class="first-last-name">
-            <input class="first-name" type="text" name="name" placeholder="First Name" maxlength="15" required>
-            <input class="last-name" type="text" name="name" placeholder="Last Name " maxlength="15" required>
+            <input class="first-name" id="firstname" type="text" name="name" placeholder="First Name" maxlength="15" required>
+            <input class="last-name" id="lastname" type="text" name="name" placeholder="Last Name " maxlength="15" required>
             </div>
             <div class="email-validatorDesktop">
             <input id="emailDesktop" type="email" name="email" placeholder="Email address" required>
             </div>
-            <textarea class="txtS" name="message" rows="4" maxlength="500" required placeholder="Hey I’d like to connect to..."></textarea>
+            <textarea class="txtS" id="txtSDesktop" name="message" rows="4" maxlength="500" required placeholder="Hey I’d like to connect to..."></textarea>
             <button type="submit" name="submit" id="contact-button">Get in touch</button>
         </form>
         </div>
@@ -299,5 +299,7 @@
 </div>
     <script src="js/app.js"></script>
     <script src="js/contact_validation.js"></script>
+    <script src="js/local_storage_mobile.js"></script>
+    <script src="js/local_storage_desktop.js"></script>
 </body>
 </html>
