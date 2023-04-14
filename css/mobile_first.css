@@ -638,6 +638,30 @@ footer h3:hover {
   display: none;
 }
 
+#emailMobile {
+  width: -webkit-fill-available;
+}
+
+#emailDesktop {
+  width: -webkit-fill-available;
+}
+
+.email-validatorDesktop {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  color: #e92222;
+  font-style: italic;
+}
+
+.email-validatorMobile {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  color: #e92222;
+  font-style: italic;
+}
+
 /* POPUP WINDOWS */
 .no-scroll {
   overflow: hidden;
