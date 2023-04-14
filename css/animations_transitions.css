@@ -129,7 +129,7 @@
 
 /* ----- Get my resume button (SPINNER) ----- */
 
-#ex-li-3:active {
+#chronospinner:hover {
   animation: 3s infinite linear threesixty;
 }
 
