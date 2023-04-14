@@ -1,4 +1,4 @@
-const formValidatorD = document.getElementById('formDesktop');
+const formValidatorDesktop = document.getElementById('formDesktop');
 const fname = document.getElementById('firstname');
 const lname = document.getElementById('lastname');
 const emailD = document.getElementById('emailDesktop');
@@ -18,7 +18,7 @@ if (storageDataD) {
   messageD.value = '';
 }
 
-formValidatorD.addEventListener('input', () => {
+formValidatorDesktop.addEventListener('input', () => {
   const formDataD = {
     firstname: fname.value,
     lastname: lname.value,
