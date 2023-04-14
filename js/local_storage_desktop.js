@@ -1,3 +1,4 @@
+const formValidatorD = document.getElementById('formDesktop');
 const fname = document.getElementById('firstname');
 const lname = document.getElementById('lastname');
 const emailD = document.getElementById('emailDesktop');
