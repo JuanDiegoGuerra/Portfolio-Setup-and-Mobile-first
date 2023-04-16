@@ -11,6 +11,7 @@ navMenu.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 });
 
+//Card Object
 const ProjectCardsDetails = [
   {
     id: 'work1',
@@ -132,7 +133,7 @@ PopupWindow.forEach((p, index) => {
     });
   });
 });
-
+//Hide and Seek exercise
 console.log("Hello Hello my friend, for this little game, you will have to find 🕵🏼‍♂️ the 3 little bugs that are hidden on this page, I will give you some clues")
 console.log("1.- For the first one, open the hamb menu in Mobile Size and check if all the links are working fine!")
 console.log("2.- For the second one, hover your mouse over all the projects, you will quickly find the broken one, but be carefull, you can get dizzy!😂")
